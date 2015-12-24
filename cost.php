@@ -5,7 +5,7 @@
  * Time: 19:32
  */
 
-$key = "e38de917e9c6bd610be9b4d70b2b7e93";
+$key = "your-api-key";
 
 $origin = isset($_GET['city_origin']) ? $_GET['city_origin'] : '';
 $destination = isset($_GET['city_destination']) ? $_GET['city_destination'] : '';
