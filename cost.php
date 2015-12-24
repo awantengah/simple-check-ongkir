@@ -7,10 +7,10 @@
 
 $key = "e38de917e9c6bd610be9b4d70b2b7e93";
 
-$origin = isset($_POST['city_origin']) ? $_POST['city_origin'] : '';
-$destination = isset($_POST['city_destination']) ? $_POST['city_destination'] : '';
-$weight = isset($_POST['weight']) ? $_POST['weight'] : '';
-$courier = isset($_POST['courier']) ? $_POST['courier'] : '';
+$origin = isset($_GET['city_origin']) ? $_GET['city_origin'] : '';
+$destination = isset($_GET['city_destination']) ? $_GET['city_destination'] : '';
+$weight = isset($_GET['weight']) ? $_GET['weight'] : '';
+$courier = isset($_GET['courier']) ? $_GET['courier'] : '';
 
 $curl = curl_init();
 
